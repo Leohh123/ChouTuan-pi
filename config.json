@@ -1,0 +1,16 @@
+{
+    "device_id": "device_001",
+    "passwd": "123",
+    "host": "http://192.168.3.13:666",
+    "cabinet_num": 3,
+    "servo_pin": [
+        17,
+        27,
+        22
+    ],
+    "btn_pin": [
+        10,
+        9,
+        11
+    ]
+}
