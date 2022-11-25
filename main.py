@@ -107,7 +107,10 @@ print(r.text)
 
 
 def update():
-    r = ss.get(api("/open/list"))
+    try:
+        r = ss.get(api("/open/list"))
+    except:
+        print("network error")
     print(r.text, state)
     obj = json.loads(r.text)
     for d in obj["data"]:
